@@ -10,4 +10,7 @@ Changes made:
 
 - added child product thumbnail in the list of products that make up the bundle products.
 
-- modified Minicart to be usable on mobile devices
+- modified Minicart to be usable on mobile devices..
+
+demo:
+https://teloporto.eu
