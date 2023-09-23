@@ -2743,6 +2743,9 @@ input[type=text] {
   width: 100%;
   border: 1px solid #39c;
 }
+input[type=search].tt-hint {
+border-radius:90px;
+}
 
 /* Only show on iPhones (not iPads or any other device) */
 @media only screen and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 0) {
@@ -10819,7 +10822,7 @@ div.calendar table td.button {
 .category-description .std ul li {margin:0 0 0 40px!important;}
 dd.clearfix.swatch-attr  li.selected .swatch-label{background-color:#33cc9a;color:white;}
 dd.clearfix.swatch-attr li.selected {
-top:10px;-webkit-transition: all 100ms ease-in-out;
+-webkit-transition: all 100ms ease-in-out;
 -moz-transition: all 100ms ease-in-out;
 -ms-transition: all 100ms ease-in-out;
 -o-transition: all 100ms ease-in-out;
