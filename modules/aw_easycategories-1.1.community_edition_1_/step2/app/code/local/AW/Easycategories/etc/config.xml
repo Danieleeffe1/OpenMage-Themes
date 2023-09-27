@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<config>
+
+    <modules>
+        <AW_Easycategories>
+            <version>1.1</version><platform>ce</platform>
+        </AW_Easycategories>
+    </modules>
+
+    <frontend>
+		<layout>
+            <updates>
+                <easycategories module="AW_Easycategories">
+                    <file>easycategories.xml</file>
+                </easycategories>
+            </updates>
+        </layout>
+	</frontend>
+
+    <adminhtml>
+        <acl>
+            <resources>
+                <all>
+                    <title>Allow Everything</title>
+                </all>
+                <admin>
+                    <children>
+                        <easycategories>
+                            <title>aheadWorks - Easy Categories</title>
+                        </easycategories>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <easycategories>
+                                            <title>aheadWorks - Easy Categories Settings Section</title>
+                                        </easycategories>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+
+    <global>
+        <blocks>
+            <easycategories>
+                <class>AW_Easycategories_Block</class>
+            </easycategories>
+        </blocks>
+         <resources>
+            <easycategories_setup>
+                <setup>
+                    <module>AW_Easycategories</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </easycategories_setup>
+            <easycategories_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </easycategories_write>
+            <easycategories_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </easycategories_read>
+        </resources>
+        <models>
+            <easycategories>
+                <class>AW_Easycategories_Model</class>
+            </easycategories>
+        </models>
+        <helpers>
+            <easycategories>
+                <class>AW_Easycategories_Helper</class>
+            </easycategories>
+        </helpers>
+    </global>
+
+    <default>
+        <easycategories>
+            <homepagesettings>
+                <thumbnail_width>100</thumbnail_width>
+            </homepagesettings>
+        </easycategories>
+    </default>
+    <default>
+        <easycategories>
+            <categorysettings>
+                <thumbnail_width>100</thumbnail_width>
+            </categorysettings>
+        </easycategories>
+    </default>
+
+</config>

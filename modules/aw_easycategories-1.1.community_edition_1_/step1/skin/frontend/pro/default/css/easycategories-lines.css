@@ -1,0 +1,35 @@
+.lines
+{
+    /*float:left;*/
+    width:100%;
+}
+.lines img
+{
+    padding-right: 5px;
+}
+.lines .cat_name
+{
+    clear:both;
+    font-size:14px;
+    font-style:normal;
+    font-weight:bold;
+}
+.lines .sub_cats
+{
+    float:left;
+    font-style:normal;
+    margin-bottom:10px;
+}
+.lines .sub_catname
+{
+    float:left;
+    width:100px;
+}
+.lines .sub
+{
+    float:left;
+}
+.lines .clear
+{
+    clear:both;
+}

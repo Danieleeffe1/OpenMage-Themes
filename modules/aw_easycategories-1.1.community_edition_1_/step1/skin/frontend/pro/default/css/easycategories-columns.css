@@ -1,0 +1,35 @@
+.columns
+{
+    float:left;
+    width:100%;
+}
+.columns img
+{
+    padding-right: 5px;
+}
+.columns .cat_name
+{
+    clear:both;
+    font-size:14px;
+    font-style:normal;
+    font-weight:bold;
+}
+.columns .sub_cats
+{
+    float:left;
+    font-style:normal;
+    margin-bottom:10px;
+}
+.columns .sub_catname
+{
+    float:left;
+    width:100px;
+}
+.columns .sub
+{
+    float:left;
+}
+.columns .clear
+{
+    clear:both;
+}

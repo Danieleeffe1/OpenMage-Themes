@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+			<action method="addCss"><stylesheet>css/easycategories-lines.css</stylesheet></action>
+            <action method="addCss"><stylesheet>css/easycategories-columns.css</stylesheet></action>
+        </reference>
+   </default>
+	<cms_index_index>    
+        <reference name="content">
+			<block type="easycategories/view" name="easycategories" before="-" />
+		</reference>
+    </cms_index_index>
+    <catalog_category_view>
+        <reference name="content">
+			<block type="easycategories/view" name="easycategories" before="-" />
+		</reference>
+    </catalog_category_view>
+</layout>
