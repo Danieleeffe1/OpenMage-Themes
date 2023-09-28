@@ -2872,9 +2872,9 @@
  #co-shipping-method-form .sp-methods dd input.checkbox,
  .product-options ul.options-list input.radio,
  .product-options ul.options-list input.checkbox {
-     margin-right: -30px;
+     
      zoom: 1.8;
-     margin-left: 5px
+     margin: 0px ;
  }
  .form-list .control label,
  .sp-methods dt label,
@@ -2888,7 +2888,7 @@
      width: auto;
      min-width: 200px;
      float: none;
-     padding: 16px 10px 16px 60px;
+     padding: 16px 10px ;
  }
  .form-list .control label:hover,
  .sp-methods dt label:hover,
@@ -5882,6 +5882,8 @@
  .product-options ul.options-list .label {
    display: block;
    border: 1px solid #e4e0d8;
+   align-items: center;
+
  }
  
  .product-options ul.options-list label {
