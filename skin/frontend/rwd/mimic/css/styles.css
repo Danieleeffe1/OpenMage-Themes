@@ -727,7 +727,7 @@
      background: #3399cc;
      color: white;
      padding: 10px;
-     float: right;
+     text-align:center;
      border-radius : 10px;
      margin-top:10px;
  }
@@ -8039,6 +8039,8 @@
  }
  body.customer-account .sidebar .block .block-content .actions {
    margin-top: 30px;
+   display: flex;
+   flex-flow: column;
  }
  body.customer-account .sidebar ol#cart-sidebar-reorder li {
    margin-top: 10px;
