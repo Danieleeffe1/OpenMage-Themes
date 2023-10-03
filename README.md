@@ -12,3 +12,10 @@ Changes made:
 
 demo:
 https://teloporto.eu
+
+
+![Screenshot_20231003_092512](https://github.com/Danieleeffe1/OpenMage-Themes/assets/46442854/f3640560-442c-4212-b583-8ada13450ac4)
+
+![Screenshot_20231003_092743](https://github.com/Danieleeffe1/OpenMage-Themes/assets/46442854/b1342b3a-d054-411e-a4f8-07829f88d29f)
+
+![Screenshot_20231003_092934](https://github.com/Danieleeffe1/OpenMage-Themes/assets/46442854/0e37ef28-6b08-48be-85d2-b4b111a1f606)
