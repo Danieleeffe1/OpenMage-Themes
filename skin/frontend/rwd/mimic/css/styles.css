@@ -3820,7 +3820,9 @@ transition: all 300ms ease-in-out;
  }
  .nav-primary li.menu-active > ul {
    display: block;
-    background-color: whitesmoke;
+   background-color: whitesmoke;
+   opacity: 1;
+   transform: scale(1);
  }
  .nav-primary .level1.active {
      border-left: 3px solid #ffa500;
