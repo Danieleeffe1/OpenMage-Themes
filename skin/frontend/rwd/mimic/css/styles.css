@@ -3498,9 +3498,22 @@
  
  @media only screen and (min-width: 771px) {
   .skip-content{display: none;}
-  .header-minicart .block-cart {display: none;}
+  .header-minicart .block-cart {
+    opacity: 0;
+    transform: scale(0);
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 #00000024;
+    background: #FBFBFB;
+    border: solid 1px #ccc;
+    display: block;
+    position: absolute;
+    transform-origin: top right;
+    top: 60px;
+    right: 55px;
+    width: 200px;
+    
 }
-
+ }
 
  
  /* ============================================ *
@@ -9719,7 +9732,19 @@
    }
    .header-minicart.skip-active .block-cart,
  .block-cart.skip-active {
-   display: contents;
+  display: contents;
+  opacity: 1;
+  transform: scale(1);
+  border-radius: 10px;
+  box-shadow: 0 4px 4px 0 #00000024;
+  background: #FBFBFB;
+  border: solid 1px #ccc;
+  display: block;
+  position: absolute;
+  z-index: 200; 
+  top: 60px; 
+  right: 55px;
+  width: 200px;
  }
  }
  @media only screen and (max-width: 479px) {
